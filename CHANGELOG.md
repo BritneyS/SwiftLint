@@ -10,7 +10,10 @@
 
 #### Enhancements
 
-* None.
+* Add `contains_over_filter_count` opt-in rule to warn against using
+  expressions like `filter(where:).count > 0` instead of `contains(where:)`.  
+  [Marcelo Fabri](https://github.com/marcelofabri)
+  [#2803](https://github.com/realm/SwiftLint/issues/2803)
 
 #### Bug Fixes
 
